@@ -97,6 +97,25 @@ button {
   border-radius: 50%;
   width: 60%;
   margin-top: 30px;
-
-  /* border-radius: 50%; */
 }
+
+/* MAIN RED-BOX */
+
+#red-box {
+  background-color: #e22d0e;
+  color: white;
+  text-align: center;
+  padding: 40px 25px 30px 25px;
+}
+
+#red-box p:first-of-type {
+  font-size: 1.2em;
+}
+#red-box p:last-of-type {
+  margin-top: -2em;
+  font-size: smaller;
+}
+
+/* ASIDE */
+
+/* FOOTER */
