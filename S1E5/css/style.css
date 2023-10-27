@@ -1,4 +1,5 @@
 /* STILI GENERALI */
+
 html {
   font-size: 110%;
 }
@@ -23,7 +24,12 @@ p {
   margin-bottom: 35px;
 }
 
+h3 {
+  color: #25a2c3;
+}
+
 /* HEADER */
+
 header {
   background-color: black;
   text-align: center;
@@ -61,4 +67,36 @@ button {
   padding: 15px 30px;
   color: white;
   text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+/* MAIN SECTION-BG */
+
+#section-bg {
+  text-align: center;
+}
+
+#section-bg p {
+  margin: 0 30px;
+}
+
+#section-bg p:last-of-type {
+  margin-bottom: 60px;
+}
+
+#section-bg h3:first-of-type {
+  margin-top: 50px;
+}
+
+#section-bg div {
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+#section-bg img {
+  border-radius: 50%;
+  width: 60%;
+  margin-top: 30px;
+
+  /* border-radius: 50%; */
 }
