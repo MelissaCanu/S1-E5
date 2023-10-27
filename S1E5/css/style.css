@@ -58,13 +58,14 @@ header img {
 }
 
 button {
+  width: 45%;
   background-color: #f04c2f;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  font-size: 0.8em;
+  font-size: 1em;
   border: none;
   border-radius: 5px;
-  padding: 15px 30px;
+  padding: 20px;
   color: white;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -79,6 +80,8 @@ button:hover {
 
 #section-bg {
   text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 #section-bg p {
@@ -86,7 +89,7 @@ button:hover {
 }
 
 #section-bg p:last-of-type {
-  margin-bottom: 60px;
+  margin-bottom: 70px;
 }
 
 #section-bg h3:first-of-type {
@@ -176,7 +179,7 @@ footer {
 
 footer h1 {
   color: white;
-  margin-bottom: 0;
+  margin-bottom: 25px;
 }
 
 footer a {
